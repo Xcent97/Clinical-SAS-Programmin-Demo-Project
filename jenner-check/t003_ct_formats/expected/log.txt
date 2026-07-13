@@ -1,0 +1,20 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: PROC FORMAT library=WORK
+
+NOTE: FORMAT sex defined (3 ranges).
+NOTE: FORMAT race defined (3 ranges).
+NOTE: FORMAT arm defined (2 ranges).
+NOTE: FORMAT armcd defined (2 ranges).
+NOTE: DATA dm_decoded
+
+NOTE: Processing inline DATALINES (3 lines)
+
+NOTE: Read 3 rows from DATALINES.
+NOTE: Wrote dm_decoded (3 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=dm_decoded
+
+NOTE: PROC PRINT completed: 3 observations printed, 7 variables

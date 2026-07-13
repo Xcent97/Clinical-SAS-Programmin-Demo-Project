@@ -1,0 +1,27 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: empty_ex
+Observations:  0
+Variables:     13
+
+Variables (in alphabetical order):
+
+  #  Variable  Type    Len  Format  Label
+---  --------  ----  -----  ------  -------------------------------
+  1  DOMAIN    Char      2          Domain Abbreviation
+  2  EPOCH     Char     40          Epoch
+  3  EXDOSE     Num      8          Dose
+  4  EXDOSFRM  Char     80          Dose Form
+  5  EXDOSU    Char     40          Dose Units
+  6  EXENDTC   Char     16          End Date/Time of Treatment
+  7  EXENDY     Num      8          Study Day of End of Treatment
+  8  EXSEQ      Num      8          Sequence Number
+  9  EXSTDTC   Char     16          Start Date/Time of Treatment
+ 10  EXSTDY     Num      8          Study Day of Start of Treatment
+ 11  EXTRT     Char    200          Name of Actual Treatment
+ 12  STUDYID   Char     15          Study Identifier
+ 13  USUBJID   Char     25          Unique Subject Identifier
+
+-------------------------------------------------------------------------------

@@ -1,0 +1,40 @@
+The FORMAT Procedure
+Format Name: $LBTEST
+    Start            End    Label
+  ALBUMIN        ALBUMIN    Albumin; Microalbumin
+ALK. PHOS.     ALK. PHOS.    Alkaline Phosphatase
+ALT (SGPT)     ALT (SGPT)    Alanine Aminotransferase; SGPT
+AST (SGOT)     AST (SGOT)    Aspartate Aminotransferase; SGOT
+DIRECT BILI    DIRECT BILI    Direct Bilirubin
+TOTAL BILI     TOTAL BILI    Bilirubin; Total Bilirubin
+     GGTP           GGTP    Gamma Glutamyl Transferase
+HEMATOCRIT     HEMATOCRIT    Hematocrit
+HEMOGLOBIN     HEMOGLOBIN    Hemoglobin
+TOTAL PROT     TOTAL PROT    Protein
+  GLUCOSE        GLUCOSE    Glucose
+
+Format Name: $LBTESTCD
+    Start            End    Label
+  ALBUMIN        ALBUMIN    ALB
+ALK. PHOS.     ALK. PHOS.    ALP
+ALT (SGPT)     ALT (SGPT)    ALT
+AST (SGOT)     AST (SGOT)    AST
+DIRECT BILI    DIRECT BILI    BILDIR
+TOTAL BILI     TOTAL BILI    BILI
+     GGTP           GGTP    GGT
+HEMATOCRIT     HEMATOCRIT    HCT
+HEMOGLOBIN     HEMOGLOBIN    HGB
+TOTAL PROT     TOTAL PROT    PROT
+  GLUCOSE        GLUCOSE    GLUC
+
+Format Name: VISIT
+    Start            End    Label
+        0              0    Baseline
+        1              1    Month 3
+        2              2    Month 6
+
+  Obs     labtest  LBTESTCD                 LBTEST     VISIT
+-----  ----------  --------  ---------------------  --------
+    1  GLUCOSE     GLUC      Glucose                Baseline
+    2  HEMOGLOBIN  HGB       Hemoglobin             Month 3
+    3  ALBUMIN     ALB       Albumin; Microalbumin  Month 6

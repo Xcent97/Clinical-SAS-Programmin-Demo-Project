@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_dosedt_partial",
+  "source_file": "SAS_Project.sas",
+  "source_blob_sha": "f9fc26f724380701bc56a2c9efa67d20348a1408",
+  "source_commit": "3f5615ed4d1212820b2c5517f547cbe0138817d6",
+  "notes": "dosedt_fix partial-date reconstruction (full/year-only/year-month/blank) via conditional PUT with z2.; RAW.DOSING supplied as 4-row mock in autoexec."
+}

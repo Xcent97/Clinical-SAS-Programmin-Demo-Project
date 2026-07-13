@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-07-13T03:27:22.106882+00:00",
+  "_captured_run_id": "r_105ee53fe6334c308e5a5516843452ef",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote empty_dm (0 rows, 25 columns).",
+    "NOTE: PROC CONTENTS completed: 0 observations, 25 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

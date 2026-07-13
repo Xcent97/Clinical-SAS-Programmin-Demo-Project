@@ -1,0 +1,12 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA empty_ex
+
+
+NOTE: Wrote empty_ex (0 rows, 13 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC CONTENTS data=empty_ex
+
+NOTE: PROC CONTENTS completed: 0 observations, 13 variables
