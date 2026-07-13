@@ -1,0 +1,22 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA lb_std
+
+NOTE: Processing inline DATALINES (5 lines)
+
+NOTE: Read 5 rows from DATALINES.
+NOTE: Wrote lb_std (5 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA lb_ind
+
+
+NOTE: Read 5 rows from lb_std.
+NOTE: Wrote lb_ind (5 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=lb_ind
+
+NOTE: PROC PRINT completed: 5 observations printed, 7 variables

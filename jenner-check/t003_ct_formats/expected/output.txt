@@ -1,0 +1,28 @@
+The FORMAT Procedure
+Format Name: ARM
+    Start            End    Label
+        1              1    Analgezia HCL 30 mg
+        0              0    Placebo
+
+Format Name: ARMCD
+    Start            End    Label
+        1              1    ALG123
+        0              0    PLACEBO
+
+Format Name: RACE
+    Start            End    Label
+        1              1    WHITE
+        2              2    BLACK OR AFRICAN AMERICAN
+        3              3    ASIAN
+
+Format Name: SEX
+    Start            End    Label
+        1              1    M
+        2              2    F
+        .              .    U
+
+  Obs  raw_sex  SEX  raw_race                       RACE  raw_trt                  ARM    ARMCD
+-----  -------  ---  --------  -------------------------  -------  -------------------  -------
+    1        1  M           1  WHITE                            1  Analgezia HCL 30 mg  ALG123
+    2        2  F           3  ASIAN                            0  Placebo              PLACEBO
+    3        .  .           2  BLACK OR AFRICAN AMERICAN        1  Analgezia HCL 30 mg  ALG123

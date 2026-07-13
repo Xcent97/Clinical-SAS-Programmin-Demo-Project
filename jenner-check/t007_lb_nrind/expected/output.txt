@@ -1,0 +1,8 @@
+
+  Obs  LBTESTCD       LBCAT   LBORRES  LBSTRESN  LBSTNRLO  LBSTNRHI  LBNRIND
+-----  --------  ----------  --------  --------  --------  --------  -------
+    1  GLUC      URINALYSIS  POSITIVE         .         .         .  HIGH
+    2  GLUC      URINALYSIS  NEGATIVE         .         .         .  NORMAL
+    3  HGB       CHEMISTRY   11.2          11.2      13.5      17.5  LOW
+    4  ALB       CHEMISTRY   5.6            5.6       3.5         5  HIGH
+    5  AST       CHEMISTRY   25              25        10        40  NORMAL

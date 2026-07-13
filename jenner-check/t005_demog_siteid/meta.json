@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_demog_siteid",
+  "source_file": "SAS_Project.sas",
+  "source_blob_sha": "f9fc26f724380701bc56a2c9efa67d20348a1408",
+  "source_commit": "3f5615ed4d1212820b2c5517f547cbe0138817d6",
+  "notes": "demog DATA step deriving SITEID/SUBJID/USUBJID from SUBJECT number (subject/100 quotient + '00'); RAW.DEMOGRAPHIC supplied as 5-row mock in autoexec."
+}

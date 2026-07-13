@@ -1,0 +1,19 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: PROC FORMAT library=WORK
+
+NOTE: FORMAT $lbtestcd defined (11 ranges).
+NOTE: FORMAT $lbtest defined (11 ranges).
+NOTE: FORMAT visit defined (3 ranges).
+NOTE: DATA lb_map
+
+NOTE: Processing inline DATALINES (3 lines)
+
+NOTE: Read 3 rows from DATALINES.
+NOTE: Wrote lb_map (3 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=lb_map
+
+NOTE: PROC PRINT completed: 3 observations printed, 4 variables

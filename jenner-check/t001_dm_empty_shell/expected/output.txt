@@ -1,0 +1,39 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: empty_dm
+Observations:  0
+Variables:     25
+
+Variables (in alphabetical order):
+
+  #  Variable  Type    Len  Format  Label
+---  --------  ----  -----  ------  ------------------------------------
+  1  ACTARM    Char     40          Description of Actual Arm
+  2  ACTARMCD  Char      8          Actual Arm Code
+  3  ACTARMUD  Char     40          Description of Unplanned Actual Arm
+  4  AGE        Num      8          Age
+  5  AGEU      Char     10          Age Units
+  6  ARM       Char     40          Description of Planned Arm
+  7  ARMCD     Char      8          Planned Arm Code
+  8  ARMNRS    Char     40          Reason Arm and/or Actual Arm is Null
+  9  BRTHDTC   Char     16          Date/Time of Birth
+ 10  COUNTRY   Char      3          Country
+ 11  DOMAIN    Char      2          Domain Abbreviation
+ 12  DTHDTC    Char     16          Date/Time of Death
+ 13  DTHFL     Char      2          Subject Death Flag
+ 14  RACE      Char     80          Race
+ 15  RFENDTC   Char     16          Subject Reference End Date/Time
+ 16  RFICDTC   Char     16          Date/Time of Informed Consent
+ 17  RFPENDTC  Char     16          Date/Time of End of Participation
+ 18  RFSTDTC   Char     16          Subject Reference Start Date/Time
+ 19  RFXENDTC  Char     16          Date/Time of Last Study Treatment
+ 20  RFXSTDTC  Char     16          Date/Time of First Study Treatment
+ 21  SEX       Char      2          Sex
+ 22  SITEID    Char      7          Study Site Identifier
+ 23  STUDYID   Char     15          Study Identifier
+ 24  SUBJID    Char      7          Subject Identifier for the Study
+ 25  USUBJID   Char     25          Unique Subject Identifier
+
+-------------------------------------------------------------------------------

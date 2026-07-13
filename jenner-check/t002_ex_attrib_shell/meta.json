@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_ex_attrib_shell",
+  "source_file": "SAS_Project.sas",
+  "source_blob_sha": "f9fc26f724380701bc56a2c9efa67d20348a1408",
+  "source_commit": "3f5615ed4d1212820b2c5517f547cbe0138817d6",
+  "notes": "SDTM EX empty-shell DATA step using ATTRIB + STOP, empshell libref rewritten to WORK; PROC CONTENTS confirms 13-column zero-row structure."
+}

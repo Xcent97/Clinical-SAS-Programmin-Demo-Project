@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-07-13T03:27:22.106882+00:00",
+  "_captured_run_id": "r_0d83ed82b0cf4a0abc1b90037fb06f09",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote demog (5 rows, 5 columns).",
+    "NOTE: PROC PRINT completed: 5 observations printed, 5 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
